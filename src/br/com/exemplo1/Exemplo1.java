@@ -3,6 +3,7 @@ package br.com.exemplo1;
 public class Exemplo1 {
 	private String nome;
 	private int idade;
+	private String sobrenome;
 
 	public String getNome() {
 		return nome;
@@ -20,4 +21,12 @@ public class Exemplo1 {
 		this.idade = idade;
 	}
 
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+	
 }
